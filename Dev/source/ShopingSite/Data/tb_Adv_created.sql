@@ -1,13 +1,12 @@
-DROP TABLE IF EXISTS `WebBanHangDemo`.`tb_Adv`;
-CREATE TABLE `WebBanHangDemo`.`tb_Adv` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `Title` VARCHAR(250) NULL,
-  `Description` VARCHAR(500) NULL,
-  `Image` VARCHAR(500) NULL,
-  `Type` INT NULL,
-  `Link` VARCHAR(500) NULL,
-  `CreatedDate` DATETIME NULL,
-  `CreatedBy` VARCHAR(150) NULL,
-  `ModifiedrDate` DATETIME NULL,
-  `ModifierBy` VARCHAR(150) NULL,
-  PRIMARY KEY (`id`));
+CREATE TABLE `WebSite`.`tb_Adv` (
+  `id` INT NOT NULL,
+  `Title` NVARCHAR(150) NULL DEFAULT NULL,
+  `Decription` NVARCHAR(500) NULL DEFAULT NULL,
+  `image` NVARCHAR(500) NULL DEFAULT NULL,
+  `Type` INT NULL DEFAULT NULL,
+  `Link` NVARCHAR(500) NULL DEFAULT NULL,
+  `CreatedDate` DATETIME NULL DEFAULT NULL,
+  `CreatedBy` NVARCHAR(150),
+   PRIMARY KEY (`id`),
+  `ModifiedDate` DATETIME NULL DEFAULT NULL,
+  `ModifierBy` NVARCHAR(150));
