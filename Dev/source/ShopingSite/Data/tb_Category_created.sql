@@ -1,14 +1,15 @@
-DROP TABLE IF EXISTS `WebBanHangDemo`.`tb_Category`;
-CREATE TABLE `WebBanHangDemo`.`tb_Category` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `Title` VARCHAR(150) NULL,
-  `Description` VARCHAR(500) NULL,
-  `Position` INT NULL,
-  `SeoTitle` VARCHAR(250) NULL,
-  `SeoDescription` VARCHAR(550) NULL,
-  `SeoKeywords` VARCHAR(250) NULL,
-  `CreatedDate` DATETIME NULL,
-  `CreatedBy` VARCHAR(150) NULL,
-  `ModifiedrDate` DATETIME NULL,
-  `ModifierBy` VARCHAR(150) NULL,
+CREATE TABLE `WebSite`.`tb_Category` (
+  `id` INT NOT NULL,
+  `Title` VARCHAR(250) NULL DEFAULT NULL,
+  `Categoryid` INT NULL DEFAULT NULL,
+  `Description` VARCHAR(4000) NULL DEFAULT NULL,
+  `Detail` LONGTEXT NULL DEFAULT NULL,
+  `image` VARCHAR(500) NULL DEFAULT NULL,
+  `SeoTitle` VARCHAR(250),
+  `SeoKeywords` VARCHAR(250),
+  `SeoDescription` VARCHAR(550),
+  `CreatedDate` DATETIME NULL DEFAULT NULL,
+  `CreatedBy` VARCHAR(150) NULL DEFAULT NULL,
+  `ModifiedDate` DATETIME NULL DEFAULT NULL,
+  `ModifierBy` VARCHAR(150) NULL DEFAULT NULL,
   PRIMARY KEY (`id`));
