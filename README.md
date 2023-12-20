@@ -1,1 +1,1 @@
-This code is code for implementation of the homepage.
+This  is code for implementation of the homepage.
