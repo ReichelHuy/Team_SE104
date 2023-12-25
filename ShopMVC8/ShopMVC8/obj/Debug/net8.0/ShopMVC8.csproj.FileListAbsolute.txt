@@ -103,3 +103,11 @@
 /Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/.bundlewatch.config.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/.eslintrc.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/build/config/.eslintrc.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/build/npm/.eslintrc.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/composer.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/dist/js/.eslintrc.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/package-lock.json
+/Users/duynguyendinh/Downloads/coderun/dotnet/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/package.json

@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using ShopMVC8.ViewModels;
 using ShopMVC8.Data;
 using ShopMVC8.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ShopMVC8.Controllers
 {
@@ -19,7 +20,8 @@ namespace ShopMVC8.Controllers
         {
             db = context;
         }
-        [HttpGet]
+
+        [Route("")]
         public IActionResult Index(int? loai)
         {
            var Items = db.HangHoas.AsQueryable();
@@ -36,6 +38,7 @@ namespace ShopMVC8.Controllers
            return View("Shop",result);
         }
 
+        [Route("search")]
         public IActionResult Search(string? query)
         {
             var Items = db.HangHoas.AsQueryable();
@@ -52,6 +55,30 @@ namespace ShopMVC8.Controllers
             TenLoai = p.MaLoaiNavigation.TenLoai
             });
            return View("Shop",result);
+        }
+        
+        [Route("Detail/{id}")]
+        public IActionResult Detail(int? id)
+        {
+            var data = db.HangHoas
+            .Include(p => p.MaLoaiNavigation)
+            .SingleOrDefault(p => p.MaHh ==id);
+            if (data == null) 
+            {
+                return View("Detail");
+            }
+            var result = new ChiTietHangHoaVM 
+            {
+                MaHh = data.MaHh,
+                TenHh = data.TenHh,
+                DonGia = data.DonGia ?? 0,
+                ChiTiet = data.MoTa ?? string.Empty,
+                Hinh = data.Hinh ?? "",
+                DiemDanhGia = 5,
+                TenLoai = data.MaLoaiNavigation.TenLoai,
+
+            };
+            return View("Detail",result);
         }
     }
 }
