@@ -126,6 +126,12 @@ namespace ShopMVC8.Controllers
         {
             return View();
         }
+        [Authorize]
+        public async Task<IActionResult> DangXuat()
+        {
+            await HttpConText.SignOutAsync();
+            return Redirect("/");
+        }
     }
 }
         
