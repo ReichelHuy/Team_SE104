@@ -23,7 +23,7 @@ public partial class KhachHang
 
     public string? Hinh { get; set; }
 
-    public int? HieuLuc { get; set; }
+    public bool HieuLuc { get; set; }
 
     public int? VaiTro { get; set; }
 
