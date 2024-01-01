@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\",
+  "WorkspaceRootPath": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\myv6branch\\shopmvc8\\shopmvc8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\myv6branch\\shopmvc8\\shopmvc8\\data\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\data\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\myv6branch\\shopmvc8\\shopmvc8\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\myv6branch\\shopmvc8\\shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,28 +26,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Data\\HangHoa.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Data\\HangHoa.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Data\\HangHoa.cs",
+              "RelativeToolTip": "ShopMVC8\\Data\\HangHoa.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T17:02:48.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShopMVC8\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwCgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T17:02:33.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Program.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Program.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Program.cs",
+              "RelativeToolTip": "ShopMVC8\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T17:01:42.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
               "RelativeDocumentMoniker": "ShopMVC8\\Data\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
               "RelativeToolTip": "ShopMVC8\\Data\\KhachHang.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-27T13:33:07.586Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

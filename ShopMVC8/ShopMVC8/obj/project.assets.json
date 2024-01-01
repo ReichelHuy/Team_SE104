@@ -11109,25 +11109,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/duynguyendinh/.nuget/packages/": {}
+    "C:\\Users\\LAPTOP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/ShopMVC8.csproj",
+      "projectUniqueName": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\ShopMVC8.csproj",
       "projectName": "ShopMVC8",
-      "projectPath": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/ShopMVC8.csproj",
-      "packagesPath": "/Users/duynguyendinh/.nuget/packages/",
-      "outputPath": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/",
+      "projectPath": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\ShopMVC8.csproj",
+      "packagesPath": "C:\\Users\\LAPTOP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LAPTOP\\source\\repos\\myV6Branch\\ShopMVC8\\ShopMVC8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/duynguyendinh/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11190,7 +11192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

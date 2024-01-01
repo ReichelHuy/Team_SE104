@@ -15,7 +15,7 @@ public partial class HangHoa
 
     public string? MoTaDonVi { get; set; }
 
-    public decimal? DonGia { get; set; }
+    public int? DonGia { get; set; }
 
     public string? Hinh { get; set; }
 

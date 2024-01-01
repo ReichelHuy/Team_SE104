@@ -16,7 +16,7 @@ app.UseHttpsRedirection();
 builder.Services.AddSession(options =>
 {
     options.Cookie.Name = ".AdventureWorks.Session";
-    options.IdleTimeout = TimeSpan.Minutes(10);
+    options.IdleTimeout = TimeSpan.FromMinutes(10);
     options.Cookie.IsEssential = true;
 });
 // Configure the HTTP request pipeline.

@@ -596,3 +596,15 @@ C:/Users/LAPTOP/source/repos/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AutoM
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.csproj.CopyComplete
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.genruntimeconfig.cache
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ref/ShopMVC8.dll
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.csproj.AssemblyReference.cache
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.AssemblyInfoInputs.cache
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.AssemblyInfo.cs
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.RazorAssemblyInfo.cache
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.RazorAssemblyInfo.cs
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.sourcelink.json
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.dll
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\refint\ShopMVC8.dll
+C:\Users\LAPTOP\source\repos\myV6Branch\ShopMVC8\ShopMVC8\obj\Debug\net8.0\ShopMVC8.pdb
