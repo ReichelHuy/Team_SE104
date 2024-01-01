@@ -9,6 +9,7 @@ using ShopMVC8.ViewModels;
 using ShopMVC8.Data;
 using ShopMVC8.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ShopMVC8.Controllers
 {
@@ -80,5 +81,6 @@ namespace ShopMVC8.Controllers
             };
             return View("Detail",result);
         }
+       
     }
 }

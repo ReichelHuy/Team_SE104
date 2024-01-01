@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\helper\\sessionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\helper\\sessionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\data\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\data\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\views\\shop\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\shop\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +66,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Controllers\\KhachHangController.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "ShopMVC8\\Controllers\\KhachHangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T12:31:14.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\HangHoa.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Data\\HangHoa.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\HangHoa.cs",
+              "RelativeToolTip": "ShopMVC8\\Data\\HangHoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T12:22:13.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -26,7 +104,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\Shop.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\Shop\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\Shop.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\Shop\\Shop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-01T11:48:01.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\Shop\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\Shop\\Detail.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwC8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-01T11:36:54.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\Shop\\ProductItem.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shop\\ProductItem.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\Shop\\ProductItem.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwAsAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-01T08:21:22.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShopMVC8\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T08:16:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Helper\\SessionExtension.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Helper\\SessionExtension.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Helper\\SessionExtension.cs",
+              "RelativeToolTip": "ShopMVC8\\Helper\\SessionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T08:14:06.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Program.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Program.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Program.cs",
+              "RelativeToolTip": "ShopMVC8\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T08:03:42.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\ViewModels\\CartItem.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "ShopMVC8\\ViewModels\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T08:00:36.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "ShopMVC8\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAowFMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-01T07:41:04.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAABJAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-01T07:24:33.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\appsettings.json",
+              "RelativeDocumentMoniker": "ShopMVC8\\appsettings.json",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\appsettings.json",
+              "RelativeToolTip": "ShopMVC8\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-01T07:16:09.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-01T07:14:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
               "RelativeDocumentMoniker": "ShopMVC8\\Data\\KhachHang.cs",
