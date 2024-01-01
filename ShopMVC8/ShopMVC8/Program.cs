@@ -13,6 +13,12 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>{options.LoginPath = "/KhachHang/DangNhap";options.AccessDeniedPath = "/AccessDenied";});
 var app = builder.Build();
 app.UseHttpsRedirection();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".AdventureWorks.Session";
+    options.IdleTimeout = TimeSpan.Minutes(10);
+    options.Cookie.IsEssential = true;
+});
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -26,6 +32,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
 app.MapControllerRoute(
     name: "Admin",
     pattern: "admin/{controller=AdminHome}/{action=Index}/{id?}"
