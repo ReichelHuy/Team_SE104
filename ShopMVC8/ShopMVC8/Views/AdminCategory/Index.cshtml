@@ -44,7 +44,7 @@
         <div class="card-header">
           <h3 class="card-title">Danh sách danh mục</h3>
           <div class="card-tools">
-                <a href="/Category/Add" class="btn btn-primary"> Thêm mới</a>
+                <a asp-controller="AdminCategory" asp-action="Adding"  class="btn btn-primary"> Thêm mới</a>
           </div>
         </div>
 
@@ -58,10 +58,9 @@
                         <th> Mã loại </th>
                         <th> Mô tả đơn vị </th>
                         <th> Đơn giá </th>
-                        <th> Tên ảnh</th>
+                        <th> Hinh</th>
                         <th> Ngày sản xuất </th>
                         <th> Giảm giá </th>
-                        <th> Số lần xem </th>
                         <th> Mô tả </th>
                         <th> Mã ncc </th>
                     </tr>
@@ -69,11 +68,22 @@
                 <tbody>
                  @if (Model!=null && Model.Any())
                         {
+                          @foreach(var item in Model)
+                          {
                            <tr>
-                                <th> </th>
-                                <th> </th>
-                                <th> </th>
+                                <th>@item.MaHh </th>
+                                <th>@item.TenHh </th>
+                                <th>@item.TenAlias </th> 
+                                <th>@item.MaLoai</th>
+                                <th>@item.MoTaDonVi </th>
+                                <th>@item.DonGia </th>
+                                <th><img class="img-fluid w-100" src="~/Hinh/HangHoa/@item.Hinh"></th>                         
+                               <th>@item.NgaySx </th>
+                               <th>@item.GiamGia </th>
+                               <th>@item.MoTa </th>
+                               <th>@item.MaNcc </th>                                                                                                                                                                                                                     
                            </tr> 
+                          }
                         }
                     else 
                         {

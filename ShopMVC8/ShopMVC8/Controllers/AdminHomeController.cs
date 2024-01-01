@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-
+using ShopMVC8.ViewModels;
 namespace ShopMVC8.Controllers
 {
     public class AdminHomeController : Controller
@@ -16,7 +16,7 @@ namespace ShopMVC8.Controllers
         {
             _logger = logger;
         }
-        [Route("Admin")]
+
         public IActionResult Index()
         {
             return View();

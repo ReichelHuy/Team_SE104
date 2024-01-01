@@ -333,6 +333,14 @@
       "PackagePath": "staticwebassets/Hinh/KhachHang/Penguins.jpg"
     },
     {
+      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/KhachHang/Screenshot 2023-12-27 at 19.49.55.png",
+      "PackagePath": "staticwebassets/Hinh/KhachHang/Screenshot 2023-12-27 at 19.49.55.png"
+    },
+    {
+      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/KhachHang/Screenshot 2023-12-29 at 08.49.41.png",
+      "PackagePath": "staticwebassets/Hinh/KhachHang/Screenshot 2023-12-29 at 08.49.41.png"
+    },
+    {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/KhachHang/aaa.png",
       "PackagePath": "staticwebassets/Hinh/KhachHang/aaa.png"
     },

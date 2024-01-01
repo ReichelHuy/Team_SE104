@@ -36,7 +36,7 @@ namespace ShopMVC8.ViewModels
         [Display(Name = "Ảnh đại diện")]
         public string? Hinh { get; set; }
 
-       
+    
     }
 }
 

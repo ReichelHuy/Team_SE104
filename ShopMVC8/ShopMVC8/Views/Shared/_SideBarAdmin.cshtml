@@ -21,7 +21,7 @@
               </p>
             </a>
           </li>
-          <!--  Tin tức -->
+          @* <!--  Tin tức -->
           <li class="nav-item">
             <a href="/news" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -47,40 +47,40 @@
                  Quảng cáo
               </p>
             </a>
-          </li>
+          </li> *@
           <!-- Quản lí sản phẩm -->
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Quản lí sản phẩm
-                <i class="right fas fa-angle-left"></i>
+                Quản lí 
+               <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
+                <a asp-controller="AdminCategory" asp-action="Index" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Danh mục </p>
+                  <p>Danh mục sản phẩm </p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../../index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Sản phẩm</p>
+                  <p>Khách hàng đăng kí</p>
                 </a>
               </li>
             </ul>
           </li>
           <!-- Cấu hình hệ thống -->
-          <li class="nav-item">
+          @* <li class="nav-item">
             <a href="/post" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                  Cấu hình hệ thống
               </p>
             </a>
-          </li>
+          </li> *@
 
         </ul>
       </nav>

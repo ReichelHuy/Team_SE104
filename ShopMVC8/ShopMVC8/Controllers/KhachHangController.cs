@@ -55,9 +55,8 @@ namespace ShopMVC8.Controllers
                     // Thêm người dùng mới vào dataset
                     db.Add(khachHang);
                     db.SaveChanges();
-
-                    // Redirect đến trang chính sau khi đăng ký
-                    return RedirectToAction("Index", "Home");
+                    // Redirect đến trang đăng nhập
+                    return RedirectToAction("DangNhap", "KhachHang");
                 }
                 catch (Exception) {  }
             }

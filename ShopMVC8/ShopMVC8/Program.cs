@@ -6,7 +6,6 @@ using Pomelo.EntityFrameworkCore.MySql.Internal;
 using ShopMVC8.Data;
 using ShopMVC8.Helper;
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Hshop2023Context>(options => {options.UseMySql("server=localhost;database=Hshop2023;user=root;password=Maytinh1", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32-mysql"));});
