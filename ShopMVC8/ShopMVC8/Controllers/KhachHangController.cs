@@ -2,12 +2,14 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using ShopMVC8.Data;
 using ShopMVC8.Helper;
 using ShopMVC8.ViewModels;
 using System.Security.Claims;
+
 
 namespace ShopMVC8.Controllers
 {
@@ -17,12 +19,15 @@ namespace ShopMVC8.Controllers
         private readonly Hshop2023Context db;
         private readonly IMapper _mapper;
 
+        // Khach hang Controller
+
         public KhachHangController(Hshop2023Context context, IMapper mapper)
         {
             db = context;
             _mapper = mapper;
         }
         [HttpGet]
+        // Dang Ky
         public IActionResult DangKy()
         {
             return View();
@@ -37,7 +42,7 @@ namespace ShopMVC8.Controllers
                 {
                     var khachHang = _mapper.Map<KhachHang>(model);
                     khachHang.RandomKey = Util.GenerateRandomkey();
-                    khachHang.MatKhau = model.MatKhau.ToMd5Hash(khachHang.RandomKey);
+                    khachHang.MatKhau = model.MatKhau?.ToMd5Hash(khachHang.RandomKey);
                     khachHang.HieuLuc = true;
                     khachHang.VaiTro = 0;
 
@@ -54,17 +59,11 @@ namespace ShopMVC8.Controllers
                     // Redirect đến trang chính sau khi đăng ký
                     return RedirectToAction("Index", "Home");
                 }
-                catch (Exception ex) {  }
-
-                // Nếu ModelState không hợp lệ, quay lại trang đăng ký
-               
+                catch (Exception) {  }
             }
             return View();
         }
-
-
-            
-        
+   
         [HttpGet]
         public IActionResult DangNhap(string? ReturnUrl)
         {
@@ -98,10 +97,10 @@ namespace ShopMVC8.Controllers
                         else
                         {
                             var claims = new List<Claim> {
-                            new Claim(ClaimTypes.Email,khachHang.Email),
-                            new Claim(ClaimTypes.Name,khachHang.HoTen),
-                            new Claim("CustomerID",khachHang.MaKh),
-                            new Claim(ClaimTypes.Role,"Customer")
+                            new(ClaimTypes.Email,khachHang.Email),
+                            new(ClaimTypes.Name,khachHang.HoTen),
+                            new("CustomerID",khachHang.MaKh),
+                            new(ClaimTypes.Role,"Customer")
                             };
                             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
@@ -111,14 +110,10 @@ namespace ShopMVC8.Controllers
                                 return Redirect(ReturnUrl);
                             }
                             else { return Redirect("/"); }
-
-                    }   
+                        }   
                     }
-                   
-
                 }
             }
-
             return View();
         }
         [Authorize]
@@ -129,14 +124,19 @@ namespace ShopMVC8.Controllers
         [Authorize]
         public async Task<IActionResult> DangXuat()
         {
-            await HttpConText.SignOutAsync();
-            return Redirect("/");
+        // Kiểm tra xem người dùng đã đăng nhập hay chưa
+        if (User?.Identity?.IsAuthenticated == true)
+        {
+         // Thực hiện đăng xuất
+         await HttpContext.SignOutAsync();
+         // Chuyển hướng về trang chủ
+         return Redirect("/");
+        }
+
+     // Nếu người dùng chưa đăng nhập, bạn có thể thực hiện xử lý khác ở đây
+     // Ví dụ: return RedirectToAction("Login", "Account");
+        return RedirectToAction("Index", "Home");
         }
     }
 }
         
-
-
-    
-
-

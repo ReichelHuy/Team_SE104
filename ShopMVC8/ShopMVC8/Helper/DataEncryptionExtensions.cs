@@ -17,26 +17,22 @@ namespace ShopMVC8.Helper
 
         public static string ToSHA512Hash(this string password, string? saltKey)
         {
-            SHA512Managed sha512 = new SHA512Managed();
+            SHA512 sha512 = SHA512.Create();
             byte[] encryptedSHA512 = sha512.ComputeHash(Encoding.UTF8.GetBytes(string.Concat(password, saltKey)));
             sha512.Clear();
 
             return Convert.ToBase64String(encryptedSHA512);
         }
-
+        
         public static string ToMd5Hash(this string password, string? saltKey)
         {
-            using (var md5 = MD5.Create())
-            {
-                byte[] data = md5.ComputeHash(Encoding.UTF8.GetBytes(string.Concat(password, saltKey)));
-                StringBuilder sBuilder = new StringBuilder();
-                for (int i = 0; i < data.Length; i++)
+            byte[] data = MD5.HashData(Encoding.UTF8.GetBytes(string.Concat(password, saltKey)));
+            StringBuilder sBuilder = new();
+            for (int i = 0; i < data.Length; i++)
                 {
                     sBuilder.Append(data[i].ToString("x2"));
                 }
-
-                return sBuilder.ToString();
-            }
+            return sBuilder.ToString(); 
         }
 
         #endregion

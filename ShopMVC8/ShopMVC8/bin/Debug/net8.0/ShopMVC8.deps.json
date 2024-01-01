@@ -1718,7 +1718,16 @@
           "System.Threading": "4.3.0"
         }
       },
-      "System.Diagnostics.EventLog/7.0.0": {},
+      "System.Diagnostics.EventLog/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",

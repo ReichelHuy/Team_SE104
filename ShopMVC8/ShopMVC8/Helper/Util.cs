@@ -15,12 +15,12 @@ namespace ShopMVC8.Helper
                 }
                 return Hinh.FileName;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return string.Empty;
             }
         }
-     
+ 
         public static string GenerateRandomkey(int length =5)
         {
             var pattern = @"qwertyuiopasdfghjklzxcvbnmQWERTYUIOASDFGHJKLZXCVBNM!@#$%^&*()_+";
