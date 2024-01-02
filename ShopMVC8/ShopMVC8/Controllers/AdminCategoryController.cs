@@ -23,12 +23,9 @@ namespace ShopMVC8.Controllers
     }
         public IActionResult Index()
         {
-            var items = db.HangHoas.ToList(); // Lấy danh sách sản phẩm từ cơ sở dữ liệu
+            var items = db.HangHoas;
 
-            // Map danh sách sản phẩm sang ViewModel nếu cần thiết
-            var model = _mapper.Map<List<QuanliHangHoaVM>>(items);
-
-            return View(model);
+            return View(items);
         }
 
         [Route("Admin/Category")]
