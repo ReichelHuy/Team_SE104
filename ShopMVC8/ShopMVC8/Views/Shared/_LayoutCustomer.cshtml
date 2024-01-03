@@ -30,7 +30,7 @@
       <!-- navbar-->
         <header class="header bg-white">
         <div class="container px-lg-3">
-          <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html"><span class="fw-bold text-uppercase text-dark">Boutique</span></a>
+          <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" asp-controller="Home" asp-action="Index"><span class="fw-bold text-uppercase text-dark">Ecommerce Website</span></a>
             <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>  
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto">
@@ -48,17 +48,17 @@
                     <a class="dropdown-item border-0 transition-link" asp-controller="Home" asp-action="Index">HomePage</a>
                     <a class="dropdown-item border-0 transition-link" asp-controller ="Shop" asp-action="Index">Category</a>
                     <a class="dropdown-item border-0 transition-link" asp-controller ="Shop" asp-action="Detail" asp-route-id="1001" > Product detail</a>
-                    <a class="dropdown-item border-0 transition-link" href="cart.html">Shopping cart</a>
+                    <a class="dropdown-item border-0 transition-link" asp-controller ="Cart" asp-action="Index">   Shopping cart</a>
                     <a class="dropdown-item border-0 transition-link" href="checkout.html">Checkout</a>
                   </div>
                </li>
               </ul>
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="cart.html"> <i class="fas fa-dolly-flatbed me-1 text-gray"></i>Cart<small class="text-gray fw-normal">(2)</small></a></li> 
+                @await Component.InvokeAsync("Cart")                
               @if (User?.Identity?.IsAuthenticated == true)
               {
                 <li class="nav-item"><a asp-action="DangXuat" asp-controller="KhachHang" class="nav-item nav-link">Logout</a></li>
-              }
+             }
               else
               {
                 <li class="nav-item"><a asp-controller="KhachHang" asp-action="DangKy" class="nav-item nav-link">Register</a></li>
@@ -78,30 +78,30 @@
         <div class="container py-4">
           <div class="row py-5">
             <div class="col-md-4 mb-3 mb-md-0">
-              <h6 class="text-uppercase mb-3">Customer services</h6>
+              <h6 class="text-uppercase mb-3">Thành viên nhóm</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">Help &amp; Contact Us</a></li>
-                <li><a class="footer-link" href="#!">Returns &amp; Refunds</a></li>
-                <li><a class="footer-link" href="#!">Online Stores</a></li>
-                <li><a class="footer-link" href="#!">Terms &amp; Conditions</a></li>
+                <li><a class="footer-link" href="#">Nguyễn Đình Huy</a></li>
+                <li><a class="footer-link" href="#">Dương Việt Huy</a></li>
+                <li><a class="footer-link" href="#">Trần Tuấn Khoa</a></li>
+                <li><a class="footer-link" href="#">Nguyễn Xuân Bách</a></li>
               </ul>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <h6 class="text-uppercase mb-3">Company</h6>
+              <h6 class="text-uppercase mb-3">Mã số sinh viên</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">What We Do</a></li>
-                <li><a class="footer-link" href="#!">Available Services</a></li>
-                <li><a class="footer-link" href="#!">Latest Posts</a></li>
-                <li><a class="footer-link" href="#!">FAQs</a></li>
+                <li><a class="footer-link" href="#">22520558</a></li>
+                <li><a class="footer-link" href="#!">22520540</a></li>
+                <li><a class="footer-link" href="#!">22520692</a></li>
+                <li><a class="footer-link" href="#!">22520093</a></li>
               </ul>
             </div>
             <div class="col-md-4">
               <h6 class="text-uppercase mb-3">Social media</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">Twitter</a></li>
-                <li><a class="footer-link" href="#!">Instagram</a></li>
-                <li><a class="footer-link" href="#!">Tumblr</a></li>
-                <li><a class="footer-link" href="#!">Pinterest</a></li>
+                <li><a class="footer-link" href="#">Twitter</a></li>
+                <li><a class="footer-link" href="#">Instagram</a></li>
+                <li><a class="footer-link" href="#">Youtube</a></li>
+                <li><a class="footer-link" href="#">Facebook</a></li>
               </ul>
             </div>
           </div>

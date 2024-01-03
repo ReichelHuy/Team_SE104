@@ -98,7 +98,7 @@ namespace ShopMVC8.Controllers
                             var claims = new List<Claim> {
                             new(ClaimTypes.Email,khachHang.Email),
                             new(ClaimTypes.Name,khachHang.HoTen),
-                            new("CustomerID",khachHang.MaKh),
+                            new(MySetting.CLAIM_CUSTOMERID,khachHang.MaKh),
                             new(ClaimTypes.Role,"Customer")
                             };
                             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

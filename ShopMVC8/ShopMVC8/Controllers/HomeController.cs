@@ -1,16 +1,23 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using ShopMVC8.Data;
 using ShopMVC8.Models;
 
-namespace ShopMVC8.Controllers;
-
-public class HomeController(ILogger<HomeController> logger) : Controller
+namespace ShopMVC8.Controllers
 {
-    private readonly ILogger<HomeController> _logger = logger;
+
+public class HomeController  : Controller
+{
+    private readonly Hshop2023Context db;
+    public HomeController(Hshop2023Context context)
+        {
+            db = context;
+        }
 
     public IActionResult Index()
     {
-        return View();
+        var data = db.HangHoas;
+        return View("Index",data);
     }
 
     public IActionResult Privacy()
@@ -23,4 +30,5 @@ public class HomeController(ILogger<HomeController> logger) : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+}
 }

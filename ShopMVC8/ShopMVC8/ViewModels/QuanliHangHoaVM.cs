@@ -12,7 +12,7 @@ namespace ShopMVC8.ViewModels
         [MaxLength(50, ErrorMessage = "Tối đa 50 kí tự")]
         public string? TenHh { get; set; }
 
-        [Display(Name = "Số hiệu sản phẩm")]
+        [Display(Name = "Tên loại")]
         [MaxLength(50, ErrorMessage = "Tối đa 50 kí tự")]
         public string? TenAlias { get; set; }
 
@@ -32,7 +32,7 @@ namespace ShopMVC8.ViewModels
 
         [Display(Name = "Ngày sản xuất")]
         [DataType(DataType.Date, ErrorMessage = "Ngày sản xuất không hợp lệ")]
-        public DateTime? NgaySx { get; set; }
+        public DateOnly  NgaySx { get; set; }
 
         [Display(Name = "Giảm giá")]
         [Range(0, 100, ErrorMessage = "Giảm giá phải nằm trong khoảng từ 0 đến 100")]

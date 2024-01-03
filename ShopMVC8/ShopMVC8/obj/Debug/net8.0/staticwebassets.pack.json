@@ -321,6 +321,18 @@
       "PackagePath": "staticwebassets/Hinh/HangHoa/Camera1.jpg"
     },
     {
+      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/Screenshot 2023-12-29 at 08.21.38.png",
+      "PackagePath": "staticwebassets/Hinh/HangHoa/Screenshot 2023-12-29 at 08.21.38.png"
+    },
+    {
+      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/Screenshot 2023-12-29 at 08.42.55.png",
+      "PackagePath": "staticwebassets/Hinh/HangHoa/Screenshot 2023-12-29 at 08.42.55.png"
+    },
+    {
+      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/Screenshot 2024-01-01 at 13.42.36.png",
+      "PackagePath": "staticwebassets/Hinh/HangHoa/Screenshot 2024-01-01 at 13.42.36.png"
+    },
+    {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/To.gif",
       "PackagePath": "staticwebassets/Hinh/HangHoa/To.gif"
     },

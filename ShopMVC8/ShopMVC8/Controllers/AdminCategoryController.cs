@@ -21,12 +21,16 @@ namespace ShopMVC8.Controllers
             db = context;
             _mapper = mapper;
     }
-    [Route("Admin/Category")]
+        [Route("Admin/Category")]
         public IActionResult Index()
         {
             var items = db.HangHoas;
+
             return View(items);
         }
+
+    
+        
     [HttpGet]
     [Route("Admin/Category/Adding")]
         // Dang Ky
@@ -41,9 +45,14 @@ namespace ShopMVC8.Controllers
         {
                 if (ModelState.IsValid)
             {
-                try
-                {
                     var HangHoaMoi  = _mapper.Map<HangHoa>(model);
+                    var category = _mapper.Map<Loai>(model);
+                    var existingCategory = db.Loais.FirstOrDefault<Loai>(c => c.MaLoai == category.MaLoai);
+                    if (existingCategory == null)
+                    {
+                        db.Add(category);
+                        db.SaveChanges();
+                    }
                     HangHoaMoi.SoLanXem = 0 ; 
                     // Kiểm tra và xử lý hình ảnh
                     if (Hinh != null)
@@ -56,10 +65,95 @@ namespace ShopMVC8.Controllers
                     // Redirect đến trang quản lí
                     return RedirectToAction("Index", "AdminCategory");
                 }
-                catch (Exception) {  }
-            }
+
             return View();
         }
+        [HttpGet]
+        [Route("Admin/Category/Edit/{id}")]
+        public IActionResult Edit(int id)
+        {
+            var hangHoa = db.HangHoas.Find(id);
+
+            if (hangHoa == null)
+            {
+                return NotFound();
+            }
+
+            var model = _mapper.Map<QuanliHangHoaVM>(hangHoa);
+            return View(model);
+        }
+
+        [HttpPost]
+        [Route("Admin/Category/Edit/{id}")]
+        public IActionResult Edit(int id, QuanliHangHoaVM model, IFormFile Hinh)
+        {
+            if (id != model.MaHh)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var hangHoa = _mapper.Map<HangHoa>(model);
+
+                    // Kiểm tra và xử lý hình ảnh
+                    if (Hinh != null)
+                    {
+                        hangHoa.Hinh = Util.UpLoadHinh(Hinh, "HangHoa");
+                    }
+
+                    // Cập nhật hàng hoá
+                    db.Update(hangHoa);
+                    db.SaveChanges();
+
+                    // Redirect đến trang quản lí
+                    return RedirectToAction("Index", "AdminCategory");
+                }
+                catch (Exception)
+                {
+                    // Xử lý ngoại lệ
+                }
+            }
+
+            return View(model);
+        }
+
+        [HttpGet]
+        [Route("Admin/Category/Delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            var hangHoa = db.HangHoas.Find(id);
+
+            if (hangHoa == null)
+            {
+                return NotFound();
+            }
+
+            var model = _mapper.Map<QuanliHangHoaVM>(hangHoa);
+            return View(model);
+        }
+
+        [HttpPost]
+        [Route("Admin/Category/Delete/{id}")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var hangHoa = db.HangHoas.Find(id);
+
+            if (hangHoa == null)
+            {
+                return NotFound();
+            }
+
+            // Xóa hàng hoá
+            db.Remove(hangHoa);
+            db.SaveChanges();
+
+            // Redirect đến trang quản lí
+            return RedirectToAction("Index", "AdminCategory");
+        }
+
 
     }
 }
