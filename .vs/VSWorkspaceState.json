@@ -3,8 +3,13 @@
     "",
     "\\ShopMVC8",
     "\\ShopMVC8\\ShopMVC8",
-    "\\ShopMVC8\\ShopMVC8\\Controllers"
+    "\\ShopMVC8\\ShopMVC8\\Controllers",
+    "\\ShopMVC8\\ShopMVC8\\Models",
+    "\\ShopMVC8\\ShopMVC8\\obj",
+    "\\ShopMVC8\\ShopMVC8\\Properties",
+    "\\ShopMVC8\\ShopMVC8\\Views",
+    "\\ShopMVC8\\ShopMVC8\\Views\\AdminCategory"
   ],
-  "SelectedNode": "\\ShopMVC8\\ShopMVC8\\Controllers\\KhachHangController.cs",
+  "SelectedNode": "\\ShopMVC8\\ShopMVC8\\Controllers\\AdminCategoryController.cs",
   "PreviewInSolutionExplorer": false
 }

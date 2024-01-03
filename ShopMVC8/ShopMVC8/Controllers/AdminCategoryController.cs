@@ -113,15 +113,18 @@ namespace ShopMVC8.Controllers
         [HttpPost]
         [Route("Admin/Category/Delete")]
         public IActionResult Delete(QuanliHangHoaVM model)
-        {
-            var hangHoa = _mapper.Map<HangHoa>(model);
+        { if (ModelState.IsValid)
+            {
+                var hangHoa = _mapper.Map<HangHoa>(model);
 
-            // Xóa hàng hoá
-            db.Remove(hangHoa);
-            db.SaveChanges();
+                // Xóa hàng hoá
+                db.Remove(hangHoa);
+                db.SaveChanges();
 
-            // Redirect đến trang quản lý
-            return RedirectToAction("Index", "AdminCategory");
+                // Redirect đến trang quản lý
+                return RedirectToAction("Index", "AdminCategory");
+            }
+        return View();
         }
        
 
