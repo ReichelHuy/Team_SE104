@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ShopMVC8.Data.KhachHang>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@foreach (var khachHang in Model)
+{
+    <div>
+        <h1>Xin chào, @khachHang.MaKh!</h1>
+        <p>Mật khẩu: @khachHang.MatKhau</p>
+        <img src="@khachHang.Hinh" alt="Hình đại diện của @khachHang.MaKh" />
+    </div>
+}

@@ -1,9 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\",
+  "WorkspaceRootPath": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\team_se104\\shopmvc8\\shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\views\\khachhang\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\khachhang\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\views\\khachhang\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\views\\khachhang\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|c:\\users\\laptop\\source\\repos\\temporary_folder\\shopmvc8\\shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C34B0FA-8558-4690-93E0-3C7D2988E646}|ShopMVC8\\ShopMVC8.csproj|solutionrelative:shopmvc8\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +50,110 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\AdminCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\AdminCategory\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-03T15:01:09.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dangky.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\Dangky.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\KhachHang\\Dangky.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\Dangky.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\KhachHang\\Dangky.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-03T14:57:45.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\KhachHang\\DangNhap.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\DangNhap.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\KhachHang\\DangNhap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-03T14:57:37.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "ShopMVC8\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-03T14:56:52.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "ShopMVC8\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-03T14:56:44.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopMVC8\\Views\\KhachHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Views\\KhachHang\\Index.cshtml",
+              "RelativeToolTip": "ShopMVC8\\Views\\KhachHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-03T14:56:07.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "ShopMVC8\\Controllers\\KhachHangController.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "ShopMVC8\\Controllers\\KhachHangController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-03T14:55:33.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
               "RelativeDocumentMoniker": "ShopMVC8\\Data\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\Team_SE104\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\LAPTOP\\source\\repos\\temporary_folder\\ShopMVC8\\ShopMVC8\\Data\\KhachHang.cs",
               "RelativeToolTip": "ShopMVC8\\Data\\KhachHang.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
