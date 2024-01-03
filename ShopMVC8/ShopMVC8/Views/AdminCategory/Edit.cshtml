@@ -1,4 +1,4 @@
-@model ShopMVC8.ViewModels.QuanliHangHoaVM
+@model ShopMVC8.Data.HangHoa
 @{
     ViewData["Title"] = "Chỉnh sửa sản phẩm";
     Layout = "_LayoutAdmin";
@@ -7,7 +7,18 @@
 @section LeftNavbar
 {
     <ul class="navbar-nav">
-        <!-- Các mục thanh điều hướng -->
+      <li class="nav-item">
+    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/Admin" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/Admin/Category" class="nav-link">Danh mục</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/Admin/Category/Adding" class="nav-link">Sửa danh mục</a>
+      </li>
     </ul>
 }
 
@@ -43,7 +54,7 @@
             </div>
         </div>
         <div class="card-body">
-            <form method="post" asp-page-handler="OnPost" enctype="multipart/form-data">
+            <form method="post" asp-controller="AdminCategory" asp-action="EditConfirmed" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <div class="form-item w-100">
@@ -60,7 +71,6 @@
                             <span asp-validation-for="@Model.TenHh" class="text-danger"></span>
                         </div>
 
-
                         <div class="form-item w-100">
                             <label asp-for="@Model.TenAlias" class="form-label my-3"></label><sup>*</sup>
                             <input asp-for="@Model.TenAlias" class="form-control" />
@@ -72,7 +82,6 @@
                             <input asp-for="@Model.MaLoai" class="form-control" />
                             <span asp-validation-for="@Model.MaLoai" class="text-danger"></span>
                         </div>
-
 
                         <div class="form-item w-100">
                             <label asp-for="@Model.MoTaDonVi" class="form-label my-3"></label><sup>*</sup>

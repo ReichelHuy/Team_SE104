@@ -9,6 +9,7 @@ using ShopMVC8.ViewModels;
 using ShopMVC8.Data;
 using ShopMVC8.Helper;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace ShopMVC8.Controllers
 {   
     public class AdminCategoryController : Controller
@@ -68,6 +69,7 @@ namespace ShopMVC8.Controllers
 
             return View();
         }
+
         [HttpGet]
         [Route("Admin/Category/Edit/{id}")]
         public IActionResult Edit(int id)
@@ -76,50 +78,32 @@ namespace ShopMVC8.Controllers
 
             if (hangHoa == null)
             {
-                return NotFound();
+                return View("Notfound","AdminCategory");
             }
-
-            var model = _mapper.Map<QuanliHangHoaVM>(hangHoa);
-            return View(model);
+            return View(hangHoa);
         }
 
         [HttpPost]
-        [Route("Admin/Category/Edit/{id}")]
-        public IActionResult Edit(int id, QuanliHangHoaVM model, IFormFile Hinh)
+        public IActionResult EditConfirmed(HangHoa model, IFormFile Hinh)
         {
-            if (id != model.MaHh)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                var existingCategory = db.Loais.FirstOrDefault<Loai>(c => c.MaLoai == model.MaLoai);
+                if (existingCategory != null)
                 {
-                    var hangHoa = _mapper.Map<HangHoa>(model);
-
-                    // Kiểm tra và xử lý hình ảnh
-                    if (Hinh != null)
-                    {
-                        hangHoa.Hinh = Util.UpLoadHinh(Hinh, "HangHoa");
-                    }
-
-                    // Cập nhật hàng hoá
-                    db.Update(hangHoa);
+                    db.Update(model);
                     db.SaveChanges();
-
-                    // Redirect đến trang quản lí
-                    return RedirectToAction("Index", "AdminCategory");
                 }
-                catch (Exception)
+                model.SoLanXem = 0;
+                // Kiểm tra và xử lý hình ảnh
+                if (Hinh != null)
                 {
-                    // Xử lý ngoại lệ
+                    model.Hinh = Util.UpLoadHinh(Hinh, "HangHoa");
                 }
-            }
-
-            return View(model);
+                // Thêm hàng hoá mới
+                db.Update(model);
+                db.SaveChanges();
+                // Redirect đến trang quản lí
+                return RedirectToAction("Index", "AdminCategory");
         }
-
         [HttpGet]
         [Route("Admin/Category/Delete/{id}")]
         public IActionResult Delete(int id)
@@ -128,32 +112,30 @@ namespace ShopMVC8.Controllers
 
             if (hangHoa == null)
             {
-                return NotFound();
+                return View("Notfound","AdminCategory");
             }
-
-            var model = _mapper.Map<QuanliHangHoaVM>(hangHoa);
-            return View(model);
+            return View(hangHoa);
         }
 
-        [HttpPost]
-        [Route("Admin/Category/Delete/{id}")]
+    
         public IActionResult DeleteConfirmed(int id)
-        {
-            var hangHoa = db.HangHoas.Find(id);
-
-            if (hangHoa == null)
+        { 
+             var product = db.HangHoas.Find(id);
+            if (product != null)
             {
-                return NotFound();
+                // Xóa hàng hoá
+                db.Remove(product);
+                db.SaveChanges();
+                // Redirect đến trang quản lý
+                return RedirectToAction("Index", "AdminCategory");
             }
-
-            // Xóa hàng hoá
-            db.Remove(hangHoa);
-            db.SaveChanges();
-
-            // Redirect đến trang quản lí
-            return RedirectToAction("Index", "AdminCategory");
+        return View("Notfound","AdminCategory");
         }
 
-
+        [Route("Admin/Category/NotFound")]
+        public IActionResult Notfound()
+        {
+            return View();
+        }
     }
 }

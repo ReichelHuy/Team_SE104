@@ -45,8 +45,7 @@
           <h3 class="card-title">Danh sách danh mục</h3>
           <div class="card-tools">
               <a asp-controller="AdminCategory" asp-action="Adding"  class="btn btn-primary"> Thêm mới</a>
-              <a asp-controller="AdminCategory" asp-action="Edit" class="btn btn-warning"> Sửa</a>
-              <a asp-controller="AdminCategory" asp-action="Delete" class="btn btn-danger"> Xóa</a>
+              <a asp-controller="AdminCategory" asp-action="Adding" class="btn btn-danger"> Thêm hàng loạt</a> 
           </div>
         </div>
 
@@ -60,11 +59,12 @@
                         <th> Mã loại </th>
                         <th> Mô tả đơn vị </th>
                         <th> Đơn giá </th>
-                        <th> Hinh</th>
+                        <th> Hình</th>
                         <th> Ngày sản xuất </th>
                         <th> Giảm giá </th>
-                        <th> Mô tả </th>
                         <th> Mã ncc </th>
+                        <th> Advanced option</th>
+                        <th> Advanced option</th>
                     </tr>
                 </thread>
                 <tbody>
@@ -82,8 +82,9 @@
                                 <th><img class="img-fluid w-100" src="~/Hinh/HangHoa/@item.Hinh"></th>                         
                                <th>@item.NgaySx </th>
                                <th>@item.GiamGia </th>
-                               <th>@item.MoTa </th>
-                               <th>@item.MaNcc </th>                                                                                                                                                                                                                     
+                               <th>@item.MaNcc </th>    
+                               <th> <a asp-controller="AdminCategory" asp-action="Delete" class="btn btn-danger" asp-route-id="@item.MaHh" > Xóa hàng hoá</a></th>   
+                               <th> <a asp-controller="AdminCategory" asp-action="Edit" class="btn btn-primary" asp-route-id="@item.MaHh" > Sửa hàng hoá</a></th>                                                                                                                                                                                                                                                                                                                                                                                                                             
                            </tr> 
                           }
                         }
