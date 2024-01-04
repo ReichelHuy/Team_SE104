@@ -10,13 +10,12 @@
     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/Admin" class="nav-link">Home</a>
+         <a asp-controller="AdminCategory" asp-action="Index" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/Admin/Category" class="nav-link">Danh mục</a>
-      </li>
+        <a asp-controller="AdminCategory" asp-action="Index" class="nav-link">Danh mục</a> </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/Admin/Category/Adding" class="nav-link">Thêm mới</a>
+      <a href="/Admin/Category/Adding" class="nav-link">Thêm mới</a>
       </li>
     </ul>
 }
@@ -29,7 +28,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Danh mục </a></li>
+              <li class="breadcrumb-item"><a asp-controller="AdminCategory" asp-action="Adding" >Danh mục </a></li>
               <li class="breadcrumb-item active">Thêm mới</li>
             </ol>
           </div>

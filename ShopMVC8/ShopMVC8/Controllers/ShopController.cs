@@ -38,6 +38,23 @@ namespace ShopMVC8.Controllers
            return View("Shop",result);
         }
 
+        [HttpPost]
+        public IActionResult Sort(int fromPrice, int toPrice)
+        {
+        var sortedItems = db.HangHoas
+            .Where(p => p.DonGia >= fromPrice && p.DonGia <= toPrice)
+            .OrderBy(p => p.DonGia)
+            .Select(p => new HangHoaVM
+        {
+            MaHh = p.MaHh,
+            TenHh = p.TenHh,
+            DonGia = p.DonGia ?? 0,
+            Hinh = p.Hinh ?? "",
+            TenLoai = p.MaLoaiNavigation.TenLoai
+        });
+            return View("Shop", sortedItems);
+        }
+
         [Route("search")]
         public IActionResult Search(string? query)
         {

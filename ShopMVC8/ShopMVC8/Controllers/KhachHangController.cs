@@ -27,12 +27,23 @@ namespace ShopMVC8.Controllers
             _mapper = mapper;
         }
         [HttpGet]
+        
+        [Route("admin/khachhang/index")]
+        public IActionResult Index()
+        {
+            // Truy vấn tất cả khách hàng từ cơ sở dữ liệu
+            var allKhachHang = db.KhachHangs.ToList();
+
+            // Truyền danh sách khách hàng đến view để hiển thị
+            return View(allKhachHang);
+        }
+
+        [HttpGet]
         // Dang Ky
         public IActionResult DangKy()
         {
             return View();
         }
-
         [HttpPost]
         public IActionResult DangKy(RegisterVM model, IFormFile Hinh)
         {

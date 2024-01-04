@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DbvjfN7MTIkGeBdIEBNM+S7x6qNFEKekH0lBC1SoerA=",
+  "Hash": "nNATNCXFStF0B5xzBGsg5h0PbOwUOIvBgTAmje6CJkw=",
   "Source": "ShopMVC8",
   "BasePath": "_content/ShopMVC8",
   "Mode": "Default",
@@ -4119,6 +4119,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Hinh/HangHoa/1009.gif"
+    },
+    {
+      "Identity": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/1e.jpeg",
+      "SourceId": "ShopMVC8",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/",
+      "BasePath": "_content/ShopMVC8",
+      "RelativePath": "Hinh/HangHoa/1e.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Hinh/HangHoa/1e.jpeg"
     },
     {
       "Identity": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/Hinh/HangHoa/21meTyhQebL._SL500_AA300_.jpg",

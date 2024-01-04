@@ -10,13 +10,17 @@ using ShopMVC8.Data;
 using ShopMVC8.Helper;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using OfficeOpenXml;
+using OfficeOpenXml.Drawing;
+using OfficeOpenXml.Style;
+using System.Drawing;
 namespace ShopMVC8.Controllers
 {   
     public class AdminCategoryController : Controller
     {
     private Hshop2023Context db = new Hshop2023Context();
     private readonly IMapper _mapper;
-    
+   
     public AdminCategoryController(Hshop2023Context context, IMapper mapper)
     {
             db = context;
@@ -136,6 +140,58 @@ namespace ShopMVC8.Controllers
         public IActionResult Notfound()
         {
             return View();
+        }
+
+        [HttpGet]
+        [Route("Admin/Category/Admore")]
+        // Them file excel
+        
+        public IActionResult Admore()
+        {
+            return View();
+        }
+       
+        
+        public IActionResult AdmoreConfirmed(IFormFile file)
+        {
+            /*
+            if (file != null && file.Length > 0)
+        {
+            using (var package = new ExcelPackage(file.OpenReadStream()))
+            {
+                ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
+                int rowCount = worksheet.Dimension.Rows;
+                
+                List<QuanliHangHoaVM> items = new List<QuanliHangHoaVM>();
+
+                for (int row = 2; row <= rowCount; row++)
+                {
+                    //ADD Quản lí hàng hoá
+                    QuanliHangHoaVM item = new QuanliHangHoaVM{
+                    MaHh = Convert.ToInt32(worksheet.Cells[row, 1].Value),
+                    TenHh = worksheet.Cells[row, 2].Value?.ToString(),
+                    TenAlias = worksheet.Cells[row, 3].Value?.ToString(),
+                    MaLoai = Convert.ToInt32(worksheet.Cells[row, 4].Value),
+                    MoTaDonVi = worksheet.Cells[row, 5].Value?.ToString(),
+                    DonGia = Convert.ToDecimal(worksheet.Cells[row, 6].Value),
+                    Hinh = worksheet.Cells[row, 7].Value?.ToString(),
+                    NgaySx = DateOnly.Parse(worksheet.Cells[row, 8].Value.ToString()!),
+                    GiamGia = Convert.ToDecimal(worksheet.Cells[row, 9].Value),
+                    MoTa = worksheet.Cells[row, 10].Value?.ToString(),
+                    MaNcc = worksheet.Cells[row, 11].Value?.ToString()};
+                    
+                    // Picture column G 
+                    string cellAddress = "G" + row.ToString();
+                    ExcelRange cell = worksheet.Cells[cellAddress];
+                    if (cell.IsRichText)
+                    {
+                    
+                    }
+                }
+            }
+        }
+            */
+            return RedirectToAction("Index", "AdminCategory");
         }
     }
 }

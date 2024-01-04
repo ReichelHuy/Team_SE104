@@ -15,17 +15,8 @@
                         @RenderSection("SoSanPham", required:false)
                             <div class="col-lg-6">
                                 <ul class="list-inline d-flex align-items-center justify-content-lg-end mb-0">
-                                    <li class="list-inline-item text-muted me-3"><a class="reset-anchor p-0" href="#!"><i class="fas fa-th-large"></i></a></li>
-                                    <li class="list-inline-item text-muted me-3"><a class="reset-anchor p-0" href="#!"><i class="fas fa-th"></i></a></li>
-                                    <li class="list-inline-item">
-                                        <select class="selectpicker" data-customclass="form-control form-control-sm">
-                                            <option value=""> Sort By </option>
-                                            <option value="default">Default sorting </option>
-                                            <option value="popularity">Popularity </option>
-                                            <option value="low-high">Price: Low to High </option>
-                                            <option value="high-low">Price: High to Low </option>
-                                        </select>
-                                    </li>
+                                    <li class="list-inline-item text-muted me-3"><a class="reset-anchor p-0" ><i class="fas fa-th-large"></i></a></li>
+                                    <li class="list-inline-item text-muted me-3"><a class="reset-anchor p-0" ><i class="fas fa-th"></i></a></li>
                                 </ul>
                             </div>
                         @RenderBody()
@@ -35,30 +26,3 @@
             </div>
         </div>
     </section>
-    <!-- short -->
-      <script>
-        var range = document.getElementById('range');
-        noUiSlider.create(range, {
-            range: {
-                'min': 0,
-                'max': 2000
-            },
-            step: 5,
-            start: [100, 1000],
-            margin: 300,
-            connect: true,
-            direction: 'ltr',
-            orientation: 'horizontal',
-            behaviour: 'tap-drag',
-            tooltips: true,
-            format: {
-              to: function ( value ) {
-                return '$' + value;
-              },
-              from: function ( value ) {
-                return value.replace('', '');
-              }
-            }
-        });
-        
-      </script>

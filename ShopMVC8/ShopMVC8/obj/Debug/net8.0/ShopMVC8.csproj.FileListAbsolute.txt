@@ -241,3 +241,7 @@
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.pdb
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.genruntimeconfig.cache
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ref/ShopMVC8.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.Interfaces.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.System.Drawing.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.IO.RecyclableMemoryStream.dll
