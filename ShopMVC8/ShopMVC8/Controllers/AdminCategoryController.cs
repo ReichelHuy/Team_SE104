@@ -154,7 +154,7 @@ namespace ShopMVC8.Controllers
         
         public IActionResult AdmoreConfirmed(IFormFile file)
         {
-            /*
+            
             if (file != null && file.Length > 0)
         {
             using (var package = new ExcelPackage(file.OpenReadStream()))
@@ -179,18 +179,26 @@ namespace ShopMVC8.Controllers
                     GiamGia = Convert.ToDecimal(worksheet.Cells[row, 9].Value),
                     MoTa = worksheet.Cells[row, 10].Value?.ToString(),
                     MaNcc = worksheet.Cells[row, 11].Value?.ToString()};
-                    
-                    // Picture column G 
-                    string cellAddress = "G" + row.ToString();
-                    ExcelRange cell = worksheet.Cells[cellAddress];
-                    if (cell.IsRichText)
-                    {
-                    
+
+                        // Picture column G 
+                    string hinhFileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string hinhPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Hinh/HangHoa", hinhFileName);
+
+                    using (var stream = new FileStream(hinhPath, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                        }
+
+                    item.Hinh = "/Hinh/HangHoa/" + hinhFileName;
+
+                    items.Add(item);
                     }
+                    // Lưu danh sách vào cơ sở dữ liệu
+                    db.AddRange(items);
+                    db.SaveChanges();
                 }
-            }
         }
-            */
+            
             return RedirectToAction("Index", "AdminCategory");
         }
     }
