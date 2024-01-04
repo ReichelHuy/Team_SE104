@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P2LD1BLmsquAIuKH5Q7m0cP73sGAoEDMO1QlMi6rwO+nbnRgEpczkB2g3qOwlb29dNEIdEXH7eRxA7QjnHLgaQ==",
+  "dgSpecHash": "6EfjAeR5i+28D33CFAn4N9SciQVDZzDauNY7wBGIj1MTa/vFdIy3ABwoOzvq449cBkM1tNbWfhxBF6a0RzMXaw==",
   "success": true,
   "projectFilePath": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/ShopMVC8.csproj",
   "expectedPackageFiles": [
@@ -154,6 +154,7 @@
     "/Users/duynguyendinh/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/duynguyendinh/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/duynguyendinh/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/Users/duynguyendinh/.nuget/packages/sixlabors.imagesharp/3.1.2/sixlabors.imagesharp.3.1.2.nupkg.sha512",
     "/Users/duynguyendinh/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/Users/duynguyendinh/.nuget/packages/system.buffers/4.3.0/system.buffers.4.3.0.nupkg.sha512",
     "/Users/duynguyendinh/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",

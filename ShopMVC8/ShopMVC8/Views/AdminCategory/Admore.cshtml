@@ -21,9 +21,9 @@
       <div class="card-body">
 <form method="post" enctype="multipart/form-data" asp-controller="AdminCategory" asp-action="AdmoreConfirmed">
     <div class="mb-3">
-    <label for="Hinh" class="form-label">Chọn hình ảnh:</label>
-    <input type="file" name="file" accept=".xlsx" class="form-control">
+    <label for="file" class="form-label">Chọn tệp excel:</label>
+    <input type="file" name="file" id="file" class="form-control" required />
     </div>
-    <button type="submit" class="btn btn-primary" value="Import" >Thêm sản phẩm</button>
+    <button type="submit" class="btn btn-primary" value="Import" >Thêm từ excel</button>
 </form>
       </div>

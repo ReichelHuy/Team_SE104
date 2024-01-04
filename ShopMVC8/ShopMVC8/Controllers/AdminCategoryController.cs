@@ -13,10 +13,15 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using OfficeOpenXml;
 using OfficeOpenXml.Drawing;
 using OfficeOpenXml.Style;
-using System.Drawing;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
+using SixLabors.ImageSharp.Formats.Jpeg;
+using System.IO;
+using System.Linq.Expressions;
+using System.Text;
 namespace ShopMVC8.Controllers
 {   
-    public class AdminCategoryController : Controller
+       public class AdminCategoryController : Controller
     {
     private Hshop2023Context db = new Hshop2023Context();
     private readonly IMapper _mapper;
@@ -151,21 +156,36 @@ namespace ShopMVC8.Controllers
             return View();
         }
        
-        
+       
         public IActionResult AdmoreConfirmed(IFormFile file)
         {
-            /*
+    
             if (file != null && file.Length > 0)
         {
             using (var package = new ExcelPackage(file.OpenReadStream()))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-                int rowCount = worksheet.Dimension.Rows;
-                
-                List<QuanliHangHoaVM> items = new List<QuanliHangHoaVM>();
-
+                int rowCount = worksheet.Dimension.Rows;               
                 for (int row = 2; row <= rowCount; row++)
                 {
+                    DateTime dateTime = (DateTime)worksheet.Cells[row, 8].Value;
+                   
+                    var imageValue = worksheet.Cells[row, 7].Value;
+                    string fileName="";
+                    if (imageValue != null && imageValue is byte[] imageData)
+                    {
+                        // Tạo đối tượng Image từ dữ liệu byte[]
+                         using (var ms = new MemoryStream(imageData))
+                    {
+                        var image = Image.Load(ms);
+                        // Tạo tên file mới cho ảnh
+                        fileName = Guid.NewGuid().ToString() + ".jpg";
+                        // Lưu ảnh vào file 
+                        string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Hinh", "HangHoa", fileName);
+                        string filePath = Path.Combine(uploadsFolder, fileName);
+                        image.Save(filePath, new JpegEncoder());
+                    }}
+
                     //ADD Quản lí hàng hoá
                     QuanliHangHoaVM item = new QuanliHangHoaVM{
                     MaHh = Convert.ToInt32(worksheet.Cells[row, 1].Value),
@@ -174,24 +194,28 @@ namespace ShopMVC8.Controllers
                     MaLoai = Convert.ToInt32(worksheet.Cells[row, 4].Value),
                     MoTaDonVi = worksheet.Cells[row, 5].Value?.ToString(),
                     DonGia = Convert.ToDecimal(worksheet.Cells[row, 6].Value),
-                    Hinh = worksheet.Cells[row, 7].Value?.ToString(),
-                    NgaySx = DateOnly.Parse(worksheet.Cells[row, 8].Value.ToString()!),
+                    Hinh = fileName,
+                    NgaySx = DateOnly.FromDateTime(dateTime),
                     GiamGia = Convert.ToDecimal(worksheet.Cells[row, 9].Value),
                     MoTa = worksheet.Cells[row, 10].Value?.ToString(),
                     MaNcc = worksheet.Cells[row, 11].Value?.ToString()};
-                    
-                    // Picture column G 
-                    string cellAddress = "G" + row.ToString();
-                    ExcelRange cell = worksheet.Cells[cellAddress];
-                    if (cell.IsRichText)
+                 
+                    var HangHoaMoi  = _mapper.Map<HangHoa>(item);
+                    var category = _mapper.Map<Loai>(item);
+                    var existingCategory = db.Loais.FirstOrDefault<Loai>(c => c.MaLoai == category.MaLoai);
+                    if (existingCategory == null)
                     {
-                    
-                    }
+                        db.Add(category);
+                        db.SaveChanges();
+                    }  
+                        db.Add(HangHoaMoi);
                 }
+                // Save
+                    db.SaveChanges();
             }
+                return RedirectToAction("Index", "AdminCategory");
         }
-            */
-            return RedirectToAction("Index", "AdminCategory");
+                return View("Notfound","AdminCategory");
         }
     }
 }

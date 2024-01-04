@@ -1,11 +1,3 @@
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/.bundlewatch.config.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/.eslintrc.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/build/config/.eslintrc.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/build/npm/.eslintrc.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/composer.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/dist/js/.eslintrc.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/package-lock.json
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AdminLTE-master/package.json
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/appsettings.Development.json
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/appsettings.json
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/ShopMVC8.staticwebassets.runtime.json
@@ -16,6 +8,9 @@
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/ShopMVC8.pdb
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AutoMapper.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.Interfaces.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.System.Drawing.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Humanizer.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -39,6 +34,7 @@
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.IO.RecyclableMemoryStream.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.NET.StringTools.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -241,7 +237,4 @@
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.pdb
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ShopMVC8.genruntimeconfig.cache
 /Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/obj/Debug/net8.0/ref/ShopMVC8.dll
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.dll
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.Interfaces.dll
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/EPPlus.System.Drawing.dll
-/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/bin/Debug/net8.0/SixLabors.ImageSharp.dll

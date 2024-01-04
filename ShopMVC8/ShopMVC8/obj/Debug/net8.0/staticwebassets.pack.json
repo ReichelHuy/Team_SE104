@@ -1693,14 +1693,6 @@
       "PackagePath": "staticwebassets/build/scss/plugins/_toastr.scss"
     },
     {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/cart.html",
-      "PackagePath": "staticwebassets/cart.html"
-    },
-    {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/checkout.html",
-      "PackagePath": "staticwebassets/checkout.html"
-    },
-    {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/css/custom.css",
       "PackagePath": "staticwebassets/css/custom.css"
     },
@@ -1803,10 +1795,6 @@
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/css/style.violet.min.css.map",
       "PackagePath": "staticwebassets/css/style.violet.min.css.map"
-    },
-    {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/detail.html",
-      "PackagePath": "staticwebassets/detail.html"
     },
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/dist/css/adminlte.css",
@@ -2227,10 +2215,6 @@
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/img/template-mac.png",
       "PackagePath": "staticwebassets/img/template-mac.png"
-    },
-    {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
     },
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/js/countries.json",
@@ -10083,14 +10067,6 @@
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/plugins/uplot/uPlot.min.css",
       "PackagePath": "staticwebassets/plugins/uplot/uPlot.min.css"
-    },
-    {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/shop.html",
-      "PackagePath": "staticwebassets/shop.html"
-    },
-    {
-      "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/test.html",
-      "PackagePath": "staticwebassets/test.html"
     },
     {
       "Id": "/Users/duynguyendinh/Downloads/coderun/dotnet/Team_SE104/ShopMVC8/ShopMVC8/wwwroot/vendor/bootstrap/css/bootstrap-grid.css",
