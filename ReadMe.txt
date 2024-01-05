@@ -11,6 +11,7 @@ Các thành viên tham gia:
 
 link powerpoint: 
 https://www.canva.com/design/DAF4uRZIsPk/61edmJnlmXof_mjVWcyHsQ/edit?utm_content=DAF4uRZIsPk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
+link youtube: 
+https://www.youtube.com/watch?v=70V4cM_xhM8&feature=youtu.be
 link github:
 https://github.com/ReichelHuy/Team_SE104
